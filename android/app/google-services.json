@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075022672139",
+    "project_id": "opsaide-up-001",
+    "storage_bucket": "opsaide-up-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075022672139:android:b2ccf7798500e4ade2b20e",
+        "android_client_info": {
+          "package_name": "com.opsaide_login.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpMB5DpAAZ3eY16tohixjYB219yY3HD98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

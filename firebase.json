@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "opsaide-up-001",
+          "appId": "1:1075022672139:android:b2ccf7798500e4ade2b20e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "opsaide-up-001",
+          "configurations": {
+            "android": "1:1075022672139:android:b2ccf7798500e4ade2b20e",
+            "ios": "1:1075022672139:ios:2133775eeac9d7f6e2b20e",
+            "macos": "1:1075022672139:ios:2133775eeac9d7f6e2b20e",
+            "web": "1:1075022672139:web:e89551e758bbecb3e2b20e",
+            "windows": "1:1075022672139:web:ab16ae476de4e559e2b20e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
