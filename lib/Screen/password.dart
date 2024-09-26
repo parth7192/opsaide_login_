@@ -71,8 +71,9 @@ class PasswordPage extends StatelessWidget {
                               text:
                                   "Please enter the verification code we have sent to the email address "),
                           TextSpan(
-                              text: "nirajprajpati2330@gmail.com",
-                              style: TextStyle(color: Colors.black)),
+                            text: "nirajprajpati2330@gmail.com",
+                            style: TextStyle(color: Colors.black),
+                          ),
                         ],
                       ),
                       style: TextStyle(fontSize: 20, color: Colors.grey),

@@ -58,6 +58,7 @@ class VerificationCode extends StatelessWidget {
           Positioned(
             child: Image.asset('lib/assets/image/bg.png'),
           ),
+
           //Smoke
           Positioned(
             top: 238,
@@ -95,7 +96,7 @@ class VerificationCode extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: ListView(
-                  physics: NeverScrollableScrollPhysics(),
+                  physics: const NeverScrollableScrollPhysics(),
                   // crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 8),
@@ -114,8 +115,9 @@ class VerificationCode extends StatelessWidget {
                               text:
                                   "Please enter the verification code we have sent to the email address "),
                           TextSpan(
-                              text: "nirajprajpati2330@gmail.com",
-                              style: TextStyle(color: Colors.black)),
+                            text: "nirajprajpati2330@gmail.com",
+                            style: TextStyle(color: Colors.black),
+                          ),
                         ],
                       ),
                       style: TextStyle(fontSize: 20, color: Colors.grey),
@@ -133,9 +135,10 @@ class VerificationCode extends StatelessWidget {
                       child: Text(
                         "You can request another code 04:56 minutes.",
                         style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 18,
-                            fontWeight: FontWeight.normal),
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontWeight: FontWeight.normal,
+                        ),
                       ),
                     ),
                     const SizedBox(height: 20),
